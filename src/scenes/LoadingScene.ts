@@ -127,6 +127,14 @@ export default class LoadingScene extends Phaser.Scene {
       align: 'center'
     }).setOrigin(0.5, 0.5)
 
+    // Created by Syamoff text at the bottom
+    this.add.text(centerX, screenSize.height.value - 50, 'Created by Syamoff', {
+      fontSize: '16px',
+      fontFamily: 'Arial, sans-serif',
+      color: '#cccccc',
+      align: 'center'
+    }).setOrigin(0.5, 0.5)
+
     // Add pulsing animation to loading text
     this.tweens.add({
       targets: this.loadingText,
