@@ -1,0 +1,178 @@
+{
+  "screenSize": {
+    "width": {
+      "value": 1152,
+      "type": "number",
+      "description": "Screen width"
+    },
+    "height": {
+      "value": 768,
+      "type": "number",
+      "description": "Screen height"
+    }
+  },
+  "debugConfig": {
+    "debug": {
+      "value": false,
+      "type": "boolean",
+      "description": "Enable debug mode"
+    },
+    "debugShowBody": {
+      "value": false,
+      "type": "boolean",
+      "description": "Show collision bodies"
+    },
+    "debugShowStaticBody": {
+      "value": false,
+      "type": "boolean",
+      "description": "Show static collision bodies"
+    },
+    "debugShowVelocity": {
+      "value": false,
+      "type": "boolean",
+      "description": "Show velocity vectors"
+    }
+  },
+  "renderConfig": {
+    "pixelArt": {
+      "value": true,
+      "type": "boolean",
+      "description": "Enable pixel art rendering"
+    }
+  },
+  "gameConfig": {
+    "gameTime": {
+      "value": 90,
+      "type": "number",
+      "description": "Game time (seconds)"
+    },
+    "goalCelebrationTime": {
+      "value": 1.5,
+      "type": "number",
+      "description": "Goal celebration time (seconds)"
+    },
+    "kickoffDelay": {
+      "value": 0.5,
+      "type": "number",
+      "description": "Kickoff delay time (seconds)"
+    }
+  },
+  "playerConfig": {
+    "moveSpeed": {
+      "value": 200,
+      "type": "number",
+      "description": "Player movement speed"
+    },
+    "jumpPower": {
+      "value": 400,
+      "type": "number",
+      "description": "Player jump power"
+    },
+    "slideSpeed": {
+      "value": 350,
+      "type": "number",
+      "description": "Slide tackle speed"
+    },
+    "slideDuration": {
+      "value": 0.8,
+      "type": "number",
+      "description": "Slide tackle duration (seconds)"
+    },
+    "kickDuration": {
+      "value": 0.15,
+      "type": "number",
+      "description": "Kick animation duration (seconds)"
+    },
+    "slideAnimDuration": {
+      "value": 0.5,
+      "type": "number",
+      "description": "Slide tackle animation duration (seconds)"
+    },
+    "stunDuration": {
+      "value": 0.8,
+      "type": "number",
+      "description": "Stun duration (seconds)"
+    },
+    "gravityY": {
+      "value": 800,
+      "type": "number",
+      "description": "Gravity"
+    }
+  },
+  "ballConfig": {
+    "bounceX": {
+      "value": 0.8,
+      "type": "number",
+      "description": "Ball horizontal bounce"
+    },
+    "bounceY": {
+      "value": 0.6,
+      "type": "number",
+      "description": "Ball vertical bounce"
+    },
+    "maxSpeed": {
+      "value": 600,
+      "type": "number",
+      "description": "Ball maximum speed"
+    },
+    "friction": {
+      "value": 0.98,
+      "type": "number",
+      "description": "Ball friction"
+    },
+    "normalKickForce": {
+      "value": 450,
+      "type": "number",
+      "description": "Normal kick power"
+    },
+    "runningKickForce": {
+      "value": 650,
+      "type": "number",
+      "description": "Running kick power"
+    },
+    "jumpKickForce": {
+      "value": 550,
+      "type": "number",
+      "description": "Jumping kick power"
+    },
+    "slideKickForce": {
+      "value": 500,
+      "type": "number",
+      "description": "Slide tackle kick power"
+    }
+  },
+  "fieldConfig": {
+    "width": {
+      "value": 1000,
+      "type": "number",
+      "description": "Field width"
+    },
+    "height": {
+      "value": 400,
+      "type": "number",
+      "description": "Field height"
+    },
+    "goalWidth": {
+      "value": 160,
+      "type": "number",
+      "description": "Goal width"
+    },
+    "goalHeight": {
+      "value": 120,
+      "type": "number",
+      "description": "Goal height"
+    }
+  },
+  "audioConfig": {
+    "musicVolume": {
+      "value": 0.6,
+      "type": "number",
+      "description": "Background music volume"
+    },
+    "sfxVolume": {
+      "value": 0.8,
+      "type": "number",
+      "description": "Sound effects volume"
+    }
+  }
+}
